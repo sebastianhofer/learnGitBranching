@@ -47,6 +47,14 @@ exports.levelSequences = {
     require('./remote/fetchArgs').level,
     require('./remote/sourceNothing').level,
     require('./remote/pullArgs').level
+  ],
+  workflowFeature: [
+    require('./workflow/feature1').level,
+    require('./workflow/feature2').level
+  ],
+  workflowRelease: [
+    require('./workflow/release1').level,
+    require('./workflow/release2').level
   ]
 };
 
@@ -250,6 +258,24 @@ var sequenceInfo = exports.sequenceInfo = {
       'ru_RU': 'Если ты смелый, ловкий, умелый – потренируйся тут',
       'uk'   : 'Для хоробрих',
       'ko'   : '용기있는 도전자를 위해 준비한 문제입니다'
+    }
+  },
+  workflowFeature: {
+    tab: 'workflow',
+    displayName: {
+      'en_US': 'Workflow Feature'
+    },
+    about: {
+      'en_US': 'to learn about feature'
+    }
+  },
+  workflowRelease: {
+    tab: 'workflow',
+    displayName: {
+      'en_US': 'Workflow Release'
+    },
+    about: {
+      'en_US': 'to learn about releases'
     }
   }
 };

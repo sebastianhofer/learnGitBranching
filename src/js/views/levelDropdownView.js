@@ -37,6 +37,9 @@ var LevelDropdownView = ContainedBase.extend({
       }, {
         id: 'remote',
         name: intl.str('remote-levels-tab')
+      }, {
+        id: 'workflow',
+        name: intl.str('workflow-levels-tab')
       }]
     };
 

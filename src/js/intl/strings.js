@@ -558,6 +558,11 @@ exports.strings = {
     'uk'   : 'Віддалені репозиторії'
   },
   ///////////////////////////////////////////////////////////////////////////
+  'workflow-levels-tab': {
+    '__desc__': 'The name of workflow levels tab on the drop down view',
+    'en_US': 'Workflow'
+  },
+  ///////////////////////////////////////////////////////////////////////////
   'branch-name-short': {
     '__desc__': 'When branch names get too long, we need to truncate them. This is the warning for that',
     'en_US': 'Sorry, we need to keep branch names short for the visuals. Your branch name was truncated to 9 characters, resulting in "{branch}"',
