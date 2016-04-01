@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Learn Git Branch Marit AG"
+AuthUserFile /home/www/p351345/html/learnGitBranching/.htpasswd
+Require valid-user
+
